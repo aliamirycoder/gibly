@@ -1,0 +1,253 @@
+
+@font-face {
+    font-family: 'iranyekan';
+    src: url('font/iranyekanwebregular(fanum)_0.ttf');
+}
+@keyframes img-m-k {
+   0%{
+       opacity: 0;
+   }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes photoshop {
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 50%;
+    }
+
+}
+@keyframes corel {
+
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes illu {
+
+    0%{
+        width: 0px;
+    }
+    100%{
+        width: 30%;
+    }
+}
+body{
+    font-family: iranyekan;
+    direction: rtl;
+}
+.navbar-light{
+    background-color: #0d0f5b !important;
+     color: white !important;
+}
+.nav-link{
+    color: white !important;
+    float: right;
+}
+.dropdown-item{
+    text-align: right;
+}
+.top-content{
+    background-image: url("img/banner_bg.png");
+    width: 100%;
+    height:auto;
+    color: #fff;
+    padding: 10px   ;
+}
+.wellcome{
+    margin-top: 250px;
+    text-align: justify;
+}
+.nafar-img{
+    width: 100%;
+
+
+}
+.wellcome-1{
+    text-align: right;
+}
+.about-me{
+    background-color: #0a0b4d;
+    color: #fff;
+    padding: 10px;
+}
+
+@media (max-width: 600px) and (min-width: 200px){
+    .nafar-img{
+        width: 70% !important;
+        height: 250px;
+
+    }
+    .wellcome{
+        margin-top: 0px;
+        text-align: justify;
+
+    }
+    .wellcome-1{
+        text-align: center !important;
+    }
+    .img-n{
+        animation: img-m-k 5s;
+        margin-bottom: 10px;
+        height: auto !important;
+    }
+}
+.photoshop-back{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #fff;
+    border-radius: 10px ;
+    text-align: left!important;
+    height: 39px;
+
+}
+
+.photoshop{
+   animation: 5s photoshop;
+    width: 50%;
+    height: 25px    ;
+    background-image: linear-gradient( #1469b3, #0094ff);
+    border-radius: 10px ;
+    float: left;
+}
+.corel{
+    animation: corel 5s;
+    width: 70%;
+    height: 25px    ;
+    background-image: linear-gradient( #1469b3, #0094ff);
+    border-radius: 10px ;
+    float: left;
+}
+.illlu{
+    width: 30%;
+    animation: illu 5s;
+    height: 25px    ;
+    background-image: linear-gradient( #1469b3, #0094ff);
+    border-radius: 10px ;
+    float: left;
+}
+.btn-pri {
+    border: 1px solid red;
+    padding: 10px;
+    background-color: transparent;
+    color: red;
+    width: 200px;
+    transition: all 0.3s;
+}
+.btn-pri:hover{
+ background-color: red;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.img-n{
+    animation: img-m-k 5s;
+    margin-bottom: 10px;
+    height: 100%;
+}
+.costumer{
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 1px solid #c5c5c5;
+    text-align: center;
+    margin-bottom: 5px;
+    transition: all 2s;
+
+}
+.costumer img{
+    width: 100px;
+}
+.costumer:hover {
+    transition: all 2s;
+    border: 1px solid #0a0b4d;
+}
+.item{
+    background: #fff;
+    padding: 10px;
+    color: #000;
+    border-radius: 10px;
+}
+.item img{
+    width: 100%;
+    height: 150px;
+}
+.blog-item{
+    box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+    text-align: right;
+    position: relative;
+    margin-top: 10px;
+}
+
+.blog-date{
+    position: absolute;
+    bottom: -35px;
+    background: red;
+    padding: 5px;
+    color: #fff;
+    text-align: center !important;
+    left: 25px;
+    border-radius: 5px;
+}
+.blog-img{
+    position: relative;
+
+}
+.blog-img img {
+    width: 100%;
+}
+.blog-type{
+    width: 100%;
+    padding: 30px;
+    padding-top: 0px !important;
+
+    margin-top: 5px;
+}
+.blog-type h5{
+    text-align: justify;
+}
+.blog-btn{
+    position: absolute;
+    background: red;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+    bottom: -20px;
+    right: 5px;
+    transition: 0.5s;
+}
+.blog-btn:hover{
+    transition: 0.5s ;
+    background: transparent;
+    color: red;
+    border: 1px solid red;
+}
+.blog-side-title{
+    background-color: #fbf9ff;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: right;
+    margin-top: 25px;
+
+}
+
+.tag {
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    background-color: #fff;
+    margin-top: 5px;
+    width: 100px;
+    float: right;
+
+}
+.table-blog img{
+    width: 100%;
+}
